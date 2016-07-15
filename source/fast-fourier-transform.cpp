@@ -1,3 +1,4 @@
+/*FFT Algorithm Outline*/
 void FFT(Complex P[], int n, int oper)
 {
     for (int i = 1, j = 0; i < n - 1; i++) {
